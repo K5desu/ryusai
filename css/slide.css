@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+
+/*CSSスライドショー設定
+---------------------------------------------------------------------------*/
+/*１枚目*/
+@keyframes slide1 {
+	0% {opacity: 0;}
+	10% {opacity: 1;}
+	30% {opacity: 1;}
+	40% {opacity: 0;}
+	100% {opacity: 0;}
+}
+/*２枚目*/
+@keyframes slide2 {
+	0% {opacity: 0;}
+	20% {opacity: 0;}
+	30% {opacity: 1;}
+	60% {opacity: 1;}
+	70% {opacity: 0;}
+	100% {opacity: 0;}
+}
+/*３枚目*/
+@keyframes slide3 {
+	0% {opacity: 0;}
+	50% {opacity: 0;}
+	60% {opacity: 1;}
+	85% {opacity: 1;}
+	95% {opacity: 0;}
+	100% {opacity: 0;}
+}
+
+/*mainimg
+---------------------------------------------------------------------------*/
+/*画像ブロック*/
+#mainimg {
+	clear: left;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+/*３枚画像の共通設定*/
+#slide1,#slide2,#slide3 {
+	animation-duration: 15s;	/*実行する時間。「s」は秒の事。*/
+	animation-iteration-count:infinite;		/*実行する回数。「infinite」は無限に繰り返す意味。*/
+	position: absolute;left:0px;top:0px;width: 100%;height: auto;
+	animation-fill-mode: both;
+	animation-delay: 1s;
+}
+/*土台画像*/
+#slide0 {
+	position: relative;width: 100%;height: auto;
+}
+/*１枚目*/
+#slide1 {
+	animation-name: slide1;		/*上で設定しているキーフレーム（keyframes）の名前*/
+}
+/*２枚目*/
+#slide2 {
+	animation-name: slide2;		/*上で設定しているキーフレーム（keyframes）の名前*/
+}
+/*３枚目*/
+#slide3 {
+	animation-name: slide3;		/*上で設定しているキーフレーム（keyframes）の名前*/
+}

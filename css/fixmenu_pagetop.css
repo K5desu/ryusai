@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+@keyframes scroll {
+
+0% {
+	opacity: 0;
+}
+100% {
+	opacity: 1;
+}
+
+}
+
+body .nav-fix-pos-pagetop a {
+	display: none;
+}
+
+body.is-fixed-pagetop .nav-fix-pos-pagetop a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	width: 50px;
+	line-height: 50px;
+	z-index: 100;
+	position: fixed;
+	bottom: 100px;
+	right: 3%;
+	background: #000;
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	border: 1px solid #fff;
+	animation-name: scroll;	/*上のアニメーションで指定しているkeyframesの名前（scroll）*/
+	animation-duration: 1S;	/*アニメーションの実行時間*/
+	animation-fill-mode: forwards;	/*アニメーションの完了後、最後のキーフレームを維持する*/
+}
+body.is-fixed-pagetop .nav-fix-pos-pagetop a:hover {
+	background: #999;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8">
+    <link rel="stylesheet" href="zikkenn.css" /></head>
+<body>
+    <script type="text/javascript">
+        const xhr = new XMLHttpRequest();
+        var data;
+
+        window.onload = function onLoad() {
+            //ファイルを開きまーす
+          xhr.open('GET', './aho.txt', false); //ここにファイル名打ち込んでくれ
+          xhr.onload = () => {
+              data = xhr.responseText;//おそらく代入？？
+          };
+          xhr.onerror = () => {
+             console.log("error!");//例外処理
+          };
+
+         xhr.send();
+
+          cts1 = document.getElementById("cts1");//クラス名を指定
+          cts1.innerText = data;
+        }
+    </script>
+    <p>ワッフル</p>
+    <div class="contents" id="cts1"></div>
+ </body>
+</html>
