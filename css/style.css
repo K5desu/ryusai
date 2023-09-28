@@ -228,22 +228,27 @@ section + section {
 	font-size: 20px;	/*文字サイズ*/
 	color: #66ba93;		/*文字色*/
 }
-
+#aho{
+	margin:auto;
+}
 /*フッター設定
 ---------------------------------------------------------------------------*/
-footer {
-	clear: both;
-	padding: 50px 0 0;	/*上、左右、下へのボックス内の余白*/
-	font-size: 85%;	/*文字サイズ*/
-	background: #111;	/*背景色。古いブラウザ用*/
-	background: #111 url(../images/footer_bg.jpg) no-repeat right top/50%;	/*背景色、背景画像の読み込み、リピートせず、右側、上側に50%幅で配置。*/
-	border-top: 1px solid #222;	/*上の線の幅、線種、色*/
-	color: #fff;	/*文字色*/
+footer{
+	ul{
+		display:flex;
+		justify-content: center;  
+	  }
+
+	  li {
+		  list-style: none;
+	  }
+
+	  li:nth-child(2) {
+		  margin: 0 35px;
+	  }
+
 }
-footer a {
-	color: #fff;	/*文字色*/
-}
-footer .pr {display: block;font-size: 80%;}
+
 
 /*フッター内のfacebookなどのアイコン設定
 ---------------------------------------------------------------------------*/

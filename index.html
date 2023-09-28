@@ -34,7 +34,7 @@ header #logo img {
 <li><a href="about.html">当店について</a></li>
 <li><a href="menu.html">メニュー</a></li>
 <li><a href="access.html">アクセス</a></li>
-<li><a href="toiawase.html">ご予約・お問合せ</a></li>
+<li><a href="#aho">残飯ワッフル個数</a></li>
 </ul>
 </nav>
 
@@ -62,7 +62,7 @@ header #logo img {
 <li><a href="about.html">当店について</a></li>
 <li><a href="menu.html">メニュー</a></li>
 <li><a href="access.html">アクセス</a></li>
-<li><a href="toiawase.html">ご予約・お問合せ</a></li>
+<li><a href="#aho">残飯ワッフル個数</a></li>
 </ul>
 </div>
 </nav>
@@ -148,7 +148,7 @@ header #logo img {
           cts1.innerText = data;
         }
     </script>
-    <div class="addbyK5"><p>ワッフル</p>
+    <div class="addbyK5" id="aho"><p>ワッフル</p>
     <div class="contents" id="cts1"></div>
 	</div>
 <h2><span>お知らせ</span></h2>
@@ -187,64 +187,6 @@ header #logo img {
 </div>
 <!--/contents-->
 
-<footer>
-
-<div id="footermenu">
-<ul>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-<ul>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-<ul>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-<ul>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-<ul>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>
-</div>
-<!--/footermenu-->
-
-<p id="icon">
-<a href="#"><img src="images/icon_facebook.png" alt="Facebook"></a>
-<a href="#"><img src="images/icon_instagram.png" alt="Instagram"></a>
-<a href="#"><img src="images/icon_twitter.png" alt="Twitter"></a>
-</p>
-
-<div id="copyright">
-<small>Copyright&copy; <a href="index.html">Sample Cafe</a> All Rights Reserved.</small>
-<span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
-</div>
-
-</footer>
 
 <p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
 
@@ -261,4 +203,30 @@ if (OCwindowWidth() <= 800) {
 </script>
 
 </body>
+<footer>
+    <h2>リンク先</h2>
+    <ul>
+        <li><a href="https://twitter.com/ryukokuhorizon" target="_blank"><img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?w=1380&t=st=1695722390~exp=1695722990~hmac=9373751b06d5fb4a471cf5c6a2abd19c4312717d5a7d552368d1f2cd2e047088" width="50px"></a></li>
+        <li><a href="https://www.instagram.com/horizon_ryu" target="_blank"><img src="https://image.freepik.com/free-vector/instagram_1199-122.jpg?1" width="50px"></a></li>
+        <li><a href="https://www.ryukokuhorizon.com/" target="_blank"><img src="https://pbs.twimg.com/profile_images/1398271296258002946/gGu71D8A_400x400.jpg" width="50px"></a></li>
+    </ul>
+    <style>
+        ul{
+		display:flex;
+		justify-content: center;  
+	  }
+
+	  li {
+		  list-style: none;
+	  }
+
+	  li:nth-child(2) {
+		  margin: 0 35px;
+	  }
+
+    </style>
+
+
+    
+</footer>
 </html>
