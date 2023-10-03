@@ -35,9 +35,9 @@ header #logo img {
 <nav id="menubar-s">
 <ul>
 <li><a href="index.html">ホーム</a></li>
-<li><a href="about.html">当店について</a></li>
+<li><a href="https://www.ryukokuhorizon.com/" target="_blank">Horizonについて</a></li>
 <li><a href="menu.html">メニュー</a></li>
-<li><a href="access.html">アクセス</a></li>
+<li><a href="#map">アクセス</a></li>
 <li><a href="#aho">残飯ワッフル個数</a></li>
 </ul>
 </nav>
@@ -63,9 +63,9 @@ header #logo img {
 <h1><a href="index.html"><img src="images/logo2.png" alt="Sample Cafe"></a></h1>
 <ul>
 <li><a href="index.html">ホーム</a></li>
-<li><a href="about.html">当店について</a></li>
+<li><a href="https://www.ryukokuhorizon.com/" target="_blank">Horizonについて</a></li>
 <li><a href="menu.html">メニュー</a></li>
-<li><a href="access.html">アクセス</a></li>
+<li><a href="#map">アクセス</a></li>
 <li><a href="#aho">残飯ワッフル個数</a></li>
 </ul>
 </div>
@@ -77,7 +77,7 @@ header #logo img {
 
 <section>
 
-<h2 class="scrollme animateme" data-when="enter" data-from="1" data-to="0" data-opacity="0" data-translatey="30">私たちのこだわり食材</h2>
+<h2 class="scrollme animateme" data-when="enter" data-from="1" data-to="0" data-opacity="0" data-translatey="30">オススメメニュー</h2>
 
 <div class="scrollme box1">
 <figure class="w50 fl animateme" data-when="enter" data-from="0.5" data-to="0.3" data-opacity="0" data-translatex="-100"><img src="images/sample1.jpg" alt=""></figure>
@@ -134,18 +134,6 @@ header #logo img {
 <dd>小さな端末を横向きにした際に、メニューが途中で切れる場合があったのを修正。</dd>
 <dt>2018/05/01</dt>
 <dd>tp_foods8公開。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
 </dl>
 <p class="r">&raquo;&nbsp;<a href="#">過去ログ</a></p>
 
@@ -153,9 +141,8 @@ header #logo img {
 
 <section>
 
-<h2>Access<span>アクセスマップ</span></h2>
-<p class="c"><a href="http://template-party.com/file/pickup_googlemap.html" target="_blank">GoogleMapで地図を貼り付けたい</a>人は解説がありますのでご覧下さい。<br>
-<img src="images/dummy_map_main.jpg" alt=""></p>
+<h2 id="map">Access<span>アクセスマップ</span></h2>
+<p class="c">その辺</p>
 
 </section>
 
@@ -179,7 +166,6 @@ if (OCwindowWidth() <= 800) {
 
 </body>
 <footer>
-    <h2>リンク先</h2>
     <ul>
         <li><a href="https://twitter.com/ryukokuhorizon" target="_blank"><img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?w=1380&t=st=1695722390~exp=1695722990~hmac=9373751b06d5fb4a471cf5c6a2abd19c4312717d5a7d552368d1f2cd2e047088" width="50px"></a></li>
         <li><a href="https://www.instagram.com/horizon_ryu" target="_blank"><img src="https://image.freepik.com/free-vector/instagram_1199-122.jpg?1" width="50px"></a></li>
@@ -188,7 +174,8 @@ if (OCwindowWidth() <= 800) {
     <style>
         ul{
 		display:flex;
-		justify-content: center;  
+		justify-content: center; 
+        padding-bottom: 2%; 
 	  }
 
 	  li {
