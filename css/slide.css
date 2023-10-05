@@ -36,6 +36,7 @@
 #mainimg {
 	clear: left;
 	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 	position: relative;
 }
@@ -43,13 +44,13 @@
 #slide1,#slide2,#slide3 {
 	animation-duration: 15s;	/*実行する時間。「s」は秒の事。*/
 	animation-iteration-count:infinite;		/*実行する回数。「infinite」は無限に繰り返す意味。*/
-	position: absolute;left:0px;top:0px;width: 100%;height: auto;
+	position: absolute;left:0px;top:0px;width: 100%;height: 100%;
 	animation-fill-mode: both;
 	animation-delay: 1s;
 }
 /*土台画像*/
 #slide0 {
-	position: relative;width: 100%;height: auto;
+	position: relative;width: 100%;height: 100%;
 }
 /*１枚目*/
 #slide1 {
