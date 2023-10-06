@@ -106,7 +106,11 @@ header #logo img {
 #contents {
 	overflow: hidden;
 	position: relative;z-index:10;
-	background: #fff;	/*背景色*/
+	margin-top: 5%;
+	background: url(../images/rogo1.png);
+	background-size:100%;
+	background-repeat:repeat-y;
+	background-position-y: 6%;
 	padding: 120px 5% 50px;	/*上、左右、下へのボックス内の余白*/
 }
 /*トップページのコンテンツへの追加設定*/
@@ -116,6 +120,7 @@ header #logo img {
 /*h2見出し*/
 #contents h2 {
 	font-size: 40px;	/*文字サイズ*/
+	margin-top: 7%;
 	margin-bottom: 30px;	/*下に空ける余白*/
 	text-align: center;		/*文字をセンタリング*/
 	letter-spacing: 0.2em;	/*文字間隔を広くとる設定*/
@@ -390,15 +395,6 @@ ul.disc {padding: 0em 25px 15px;list-style: disc;}
 .big1 {font-size: 50px;}
 .mini1 {font-size: 11px;display: inline-block;line-height: 1.5;}
 .sh {display: none;}
-/*
-.bg1 {overflow: hidden;background: url(../images/bg1.png) no-repeat -20% -100px/30%,url(../images/bg1.png) no-repeat 130% 100px/50%, #fff !important;}
-.bg2 {overflow: hidden;background: url(../images/bg2.png) !important;}
-*/
-.bg1{
-	background-image: url("../images/rogo1.png")!important;
-	background-size:cover;
-	background-repeat: no-repeat;
-}
 
 
 /*画面幅800px以下の設定
