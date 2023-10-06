@@ -390,9 +390,15 @@ ul.disc {padding: 0em 25px 15px;list-style: disc;}
 .big1 {font-size: 50px;}
 .mini1 {font-size: 11px;display: inline-block;line-height: 1.5;}
 .sh {display: none;}
+/*
 .bg1 {overflow: hidden;background: url(../images/bg1.png) no-repeat -20% -100px/30%,url(../images/bg1.png) no-repeat 130% 100px/50%, #fff !important;}
 .bg2 {overflow: hidden;background: url(../images/bg2.png) !important;}
-
+*/
+.bg1{
+	background-image: url("../images/rogo1.png")!important;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
 
 
 /*画面幅800px以下の設定
