@@ -249,35 +249,62 @@ header #logo img {
 <!--/contents-->
 
 <footer>
+	<ul class="rink">
+			<li class="X-rink"><a href="https://twitter.com/ryukokuhorizon" target="_blank"><img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?w=1380&t=st=1695722390~exp=1695722990~hmac=9373751b06d5fb4a471cf5c6a2abd19c4312717d5a7d552368d1f2cd2e047088" width="50px"></a>
+					<p>Xのリンク先に移動しますか?</p>
+			</li>
+			<li class="insta-rink"><a href="https://www.instagram.com/horizon_ryu" target="_blank"><img src="https://image.freepik.com/free-vector/instagram_1199-122.jpg?1" width="50px"></a>
+					<p>instaのリンク先に移動しますか?</p>
+			</li>
+			<li class="Horizon-rink"><a href="https://www.ryukokuhorizon.com/" target="_blank"><img src="https://pbs.twimg.com/profile_images/1398271296258002946/gGu71D8A_400x400.jpg" width="50px"></a>
+					<p>Horizonのページに移動しますか?</p>
+			</li>
+	</ul>
+	<style>
 
-<!--/footermenu-->
+			ul{
+			display:flex;
+			justify-content: center; 
+					text-align: center
+		}
 
-<ul>
-	<li><a href="https://twitter.com/ryukokuhorizon" target="_blank"><img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?w=1380&t=st=1695722390~exp=1695722990~hmac=9373751b06d5fb4a471cf5c6a2abd19c4312717d5a7d552368d1f2cd2e047088" width="50px"></a></li>
-	<li><a href="https://www.instagram.com/horizon_ryu" target="_blank"><img src="https://image.freepik.com/free-vector/instagram_1199-122.jpg?1" width="50px"></a></li>
-	<li><a href="https://www.ryukokuhorizon.com/" target="_blank"><img src="https://pbs.twimg.com/profile_images/1398271296258002946/gGu71D8A_400x400.jpg" width="50px"></a></li>
-</ul>
-<style>
-	ul{
-display:flex;
-justify-content: center; 
-}
+		li{
+			list-style: none;
+		}
 
-li {
-list-style: none;
-}
+		li:nth-child(2) {
+			margin: 0 35px;
+		}
 
-li:nth-child(2) {
-margin: 0 35px;
-}
+			.rink img{
+					opacity:0.8;
+			}
 
-</style>
+			.rink img:hover{
+					opacity:1;
+			}
 
-<div id="copyright">
-<small>Copyright&copy; <a href="index.html">Sample Cafe</a> All Rights Reserved.</small>
-<span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
-</div>
+			.rink p{
+					opacity:0;
+			}
 
+			.X-rink{
+					&:hover p{opacity:1;}
+			}
+
+			.insta-rink{
+					&:hover p{opacity:1;}
+			}
+
+			.Horizon-rink{
+					&:hover p{opacity:1;}
+			}
+
+	</style>
+	<div id="copyright">
+			<small>Copyright&copy; <a href="index.html">Sample Cafe</a> All Rights Reserved.</small>
+			<span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+	</div>
 </footer>
 
 <p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
