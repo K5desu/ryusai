@@ -111,7 +111,7 @@ header #logo img {
 	background-size:100%;
 	background-repeat:repeat-y;
 	background-position-y: 6%;
-	padding: 120px 5% 50px;	/*上、左右、下へのボックス内の余白*/
+	padding: 120px 5% 0px;	/*上、左右、下へのボックス内の余白*/
 }
 /*トップページのコンテンツへの追加設定*/
 #top #contents {
