@@ -98,6 +98,7 @@ header #logo img {
 	top: 0px;	/*上から0pxの場所に配置*/
 	width: 20%;	/*画像幅*/
 	background: #66ba93;	/*背景色*/
+	margin-top: 15%;
 }
 
 /*コンテンツ
