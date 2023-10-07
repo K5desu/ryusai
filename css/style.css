@@ -164,6 +164,14 @@ section + section {
 	padding-top: 100px;
 }
 
+.map{
+	margin-top: 0;
+}
+
+.osusume h2{
+	padding-top: 120px;
+}
+
 /*menu_bg（メニューページの小見出し含めた各メニューブロック）
 ---------------------------------------------------------------------------*/
 #contents .menu_bg {

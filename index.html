@@ -36,7 +36,7 @@ header #logo img {
     <ul>
         <li><a href="index.html">ホーム</a></li>
         <li><a href="https://www.ryukokuhorizon.com/" target="_blank">Horizonについて</a></li>
-        <li><a href="menu.html">メニュー</a></li>
+        <li><a href="index.html#menu">メニュー</a></li>
         <li><a href="index.html#map">アクセス</a></li>
         <li><a href="index.html#aho">残飯ワッフル個数</a></li>
     </ul>
@@ -56,7 +56,7 @@ header #logo img {
         <ul>
             <li><a href="index.html">ホーム</a></li>
             <li><a href="https://www.ryukokuhorizon.com/" target="_blank">Horizonについて</a></li>
-            <li><a href="menu.html">メニュー</a></li>
+            <li><a href="index.html#menu">メニュー</a></li>
             <li><a href="index.html#map">アクセス</a></li>
             <li><a href="index.html#aho">残飯ワッフル個数</a></li>
         </ul>
@@ -69,17 +69,7 @@ header #logo img {
 
 <section class="osusume">
 
-<h2 class="scrollme animateme">オススメメニュー</h2>
-
-<div class="scrollme box1">
-<figure class="w50 fl animateme" data-when="enter" data-from="0.5" data-to="0.3" data-opacity="0" data-translatex="-100"><img src="images/sample1.jpg" alt=""></figure>
-<figcaption class="w50 fr"><strong>ここに見出しを入れます。</strong>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</figcaption>
-</div>
-
-<div class="scrollme box1">
-<figure class="w50 fr animateme" data-when="enter" data-from="0.5" data-to="0.3" data-opacity="0" data-translatex="100"><img src="images/sample2.jpg" alt=""></figure>
-<figcaption class="w50 fl r"><strong>ここに見出しを入れます。</strong>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</figcaption>
-</div>
+<h2 id="menu" class="scrollme animateme">メニュー</h2>
 
 <div class="scrollme box1">
 <figure class="w50 fl animateme" data-when="enter" data-from="0.5" data-to="0.3" data-opacity="0" data-translatex="-100"><img src="images/sample1.jpg" alt=""></figure>
@@ -93,31 +83,31 @@ header #logo img {
 
 </section>
 
+<script type="text/javascript">
+    const xhr = new XMLHttpRequest();
+    var data;
+
+    window.onload = function onLoad() {
+        //ファイルを開きまーす
+      xhr.open('GET', './aho.txt', false); //ここにファイル名打ち込んでくれ
+      xhr.onload = () => {
+          data = xhr.responseText;//おそらく代入？？
+      };
+      xhr.onerror = () => {
+         console.log("error!");//例外処理
+      };
+
+     xhr.send();
+
+      cts1 = document.getElementById("cts1");//クラス名を指定
+      cts1.innerText = data;
+    }
+</script>
+<div class="addbyK5" id="aho"><p>ワッフル</p>
+<div class="contents" id="cts1"></div>
+</div>
 
 <section id="new">
-	<script type="text/javascript">
-        const xhr = new XMLHttpRequest();
-        var data;
-
-        window.onload = function onLoad() {
-            //ファイルを開きまーす
-          xhr.open('GET', './aho.txt', false); //ここにファイル名打ち込んでくれ
-          xhr.onload = () => {
-              data = xhr.responseText;//おそらく代入？？
-          };
-          xhr.onerror = () => {
-             console.log("error!");//例外処理
-          };
-
-         xhr.send();
-
-          cts1 = document.getElementById("cts1");//クラス名を指定
-          cts1.innerText = data;
-        }
-    </script>
-    <div class="addbyK5" id="aho"><p>ワッフル</p>
-    <div class="contents" id="cts1"></div>
-	</div>
     <h2><span>お知らせ</span></h2>
     <dl>
     <dt>2023/10/28</dt>
@@ -125,12 +115,11 @@ header #logo img {
     <dt>2023/10/29</dt>
     <dd>龍谷祭2日目</dd>
     </dl>
-
 </section>
 
 <section>
 
-<h2 id="map">Access<span>アクセスマップ</span></h2>
+<h2 id="map" class="map">Access<span>アクセスマップ</span></h2>
 <p class="c"><img src="images\Bangou.png"></p>
 
 </section>
