@@ -109,8 +109,9 @@ header #logo img {
 	/*margin-top: 5%;*/
 	background: url(../images/rogo1.png);
 	background-size:100%;
+	min-height:100vh;
 	background-repeat:repeat-y;
-	background-position-y: -14%;
+	background-position-y: -11%;
 	padding: 120px 5% 0px;	/*上、左右、下へのボックス内の余白*/
 }
 #contents-s{display: none;}
@@ -481,6 +482,7 @@ header #logo img {
 #contents {
 	background: url(../images/rogo1.png);
 	background-size:100%;
+	min-height:100vh;
 	background-repeat:repeat-y;
 	background-position-y: -3%;
 }
@@ -544,6 +546,13 @@ body {
 #contents h2 span {
 	font-size: 10px;
 	margin-top: 0px;
+}
+#contents {
+	background: url(../images/rogo1.png);
+	background-size:100%;
+	min-height:100vh;
+	background-repeat:repeat-y;
+	background-position-y: -3%;
 }
 
 /*フッターメニュー
