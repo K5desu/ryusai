@@ -106,13 +106,14 @@ header #logo img {
 #contents {
 	overflow: hidden;
 	position: relative;z-index:10;
-	margin-top: 5%;
+	/*margin-top: 5%;*/
 	background: url(../images/rogo1.png);
 	background-size:100%;
 	background-repeat:repeat-y;
-	background-position-y: 6%;
+	background-position-y: -14%;
 	padding: 120px 5% 0px;	/*上、左右、下へのボックス内の余白*/
 }
+#contents-s{display: none;}
 /*トップページのコンテンツへの追加設定*/
 #top #contents {
 	padding-top: 0;	/*上の余白をゼロにする*/
@@ -164,9 +165,7 @@ section + section {
 	padding-top: 100px;
 }
 
-.map{
-	margin-top: 0;
-}
+
 
 .osusume h2{
 	padding-top: 120px;
@@ -480,10 +479,19 @@ header #logo img {
 /*コンテンツ
 ---------------------------------------------------------------------------*/
 #contents {
-	padding-top: 50px;	/*上側のボックス内の余白*/
+	background: url(../images/rogo1.png);
+	background-size:100%;
+	background-repeat:repeat-y;
+	background-position-y: -3%;
 }
 section + section {
 	padding-top: 20px;
+}
+.addbyK5{
+	color:#F00;
+	font-size:100px;
+	text-align: center;
+	padding-top: 30px;
 }
 
 /*box1（トップページの「私たちのこだわり食材」以下の４つのブロック）
