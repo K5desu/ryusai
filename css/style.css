@@ -10,7 +10,7 @@
 	color:#F00;
 	font-size:100px;
 	text-align: center;
-	padding-top: 120px;
+	padding-top: 130px;
 }
 body {
 	margin: 0px;
@@ -111,7 +111,7 @@ header #logo img {
 	background-size:100%;
 	min-height:100vh;
 	background-repeat:repeat-y;
-	background-position-y: -11%;
+	background-position-y: -2%;
 	padding: 120px 5% 0px;	/*上、左右、下へのボックス内の余白*/
 }
 #contents-s{display: none;}

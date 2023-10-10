@@ -47,18 +47,16 @@ header #logo img {
 <header class="scrollme">
 
 
-
-
 <!--PC用（801px以上端末）メニューとロゴ-->
 <nav id="menubar">
     <div class="animateme">
         <h1><a href="index.html"><img src="images/logo2.png" alt="Sample Cafe"></a></h1>
         <ul>
             <li><a href="index.html">ホーム</a></li>
-            <li><a href="https://www.ryukokuhorizon.com/" target="_blank">Horizonについて</a></li>
+            <li><a href="index.html#aho">残飯ワッフル個数</a></li>
             <li><a href="index.html#menu">メニュー</a></li>
             <li><a href="index.html#map">アクセス</a></li>
-            <li><a href="index.html#aho">残飯ワッフル個数</a></li>
+            <li><a href="https://www.ryukokuhorizon.com/" target="_blank">Horizonについて</a></li>
         </ul>
     </div>
 </nav>
@@ -66,22 +64,6 @@ header #logo img {
 </header>
 
 <div id="contents">
-
-<section class="osusume">
-
-<h2 id="menu" class="scrollme animateme">メニュー</h2>
-
-<div class="scrollme box1">
-<figure class="w50 fl animateme" data-when="enter" data-from="0.45" data-to="0.3" data-opacity="0" data-translatex="-100"><img src="images/menu1.png" alt=""></figure>
-<figcaption class="w50 fr"><strong>ここに見出しを入れます。</strong>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</figcaption>
-</div>
-
-<div class="scrollme box1">
-<figure class="w50 fr animateme" data-when="enter" data-from="0.45" data-to="0.3" data-opacity="0" data-translatex="100"><img src="images/menu2.png" alt=""></figure>
-<figcaption class="w50 fl r"><strong>ここに見出しを入れます。</strong>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</figcaption>
-</div>
-
-</section>
 
 <script type="text/javascript">
     const xhr = new XMLHttpRequest();
@@ -107,6 +89,22 @@ header #logo img {
 <div class="contents" id="cts1"></div>
 </div>
 
+<section class="osusume">
+
+<h2 id="menu" class="scrollme animateme">メニュー</h2>
+
+<div class="scrollme box1">
+<figure class="w50 fl animateme" data-when="enter" data-from="0.45" data-to="0.3" data-opacity="0" data-translatex="-100"><img src="images/menu1.png" alt=""></figure>
+<figcaption class="w50 fr"><strong>ここに見出しを入れます。</strong>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</figcaption>
+</div>
+
+<div class="scrollme box1">
+<figure class="w50 fr animateme" data-when="enter" data-from="0.45" data-to="0.3" data-opacity="0" data-translatex="100"><img src="images/menu2.png" alt=""></figure>
+<figcaption class="w50 fl r"><strong>ここに見出しを入れます。</strong>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</figcaption>
+</div>
+
+</section>
+
 <section id="new">
     <h2><span>お知らせ</span></h2>
     <dl>
@@ -117,12 +115,8 @@ header #logo img {
     </dl>
 </section>
 
-<section>
-
 <h2 id="map" class="map">Access<span>アクセスマップ</span></h2>
 <p class="c"><img src="images\Bangou.png"></p>
-
-</section>
 
 <div class="rink">
 <ul>
@@ -138,7 +132,9 @@ header #logo img {
 </ul>
 </div>
 <style>
-
+    .rink{
+        margin-top: 70px;
+    }
     .rink ul{
         display:flex;
         justify-content: center; 
@@ -168,6 +164,7 @@ header #logo img {
 
     .rink p{
         opacity:0;
+        margin-top: 10px;
         margin-bottom: 0 !important;
     }
 
