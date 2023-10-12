@@ -235,6 +235,8 @@ section + section {
 }
 /*説明文内のstrongタグ*/
 .box1 figcaption strong {
+	position:absolute;
+	z-index:1;
 	display: block;
 	font-weight: normal;
 	font-size: 30px;	/*文字サイズ*/
@@ -594,4 +596,14 @@ body {
 .sh {display:block;}
 .pc {display:none;}
 
+}
+
+#K5sama{
+	position:absolute;
+	top:1650px;
+	left:950px;
+	text-align:left;
+	z-index:100;
+
+	
 }
