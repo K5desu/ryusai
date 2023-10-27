@@ -13,19 +13,19 @@
 	font-size:5vh;
 	text-align: center;
 	padding-top: 15vh;
-	animation: animetion01 0.2s infinite ;
+	animation: animetion01 0.2s;
 }
 @keyframes animetion01{
 
-	0%{opacity:1;
-		transform:translateX(-100px) translateY(-100px) rotate(-360deg);
+	0%{opacity:0;
+		transform:translateY(-100px);
 		
 
 	}
 	100%{
 		
 		opacity:1;
-		transform:translate(100px) translateY(100px) rotate(530deg) ;
+		transform:translateY(100px);
 		
 }
 }
