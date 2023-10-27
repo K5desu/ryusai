@@ -13,17 +13,18 @@
 	font-size:5vh;
 	text-align: center;
 	padding-top: 15vh;
-	animation: animetion01 2s  ;
+	animation: animetion01 0.5s infinite ;
 }
 @keyframes animetion01{
 	0%{opacity:0;
-		transform:translateY(-50%);
+		
+		transform: scale(0);
 
 	}
 	100%{
-		opacity:1;
-		transform:translateY(0%);
-
+		opacity:
+		
+		transform:scale(1);
 	}
 }
 
