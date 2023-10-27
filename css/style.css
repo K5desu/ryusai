@@ -8,10 +8,12 @@
 ---------------------------------------------------------------------------*/
 .addbyK5{
 	color:#F00;
-	font-size:100px;
+	font-size:5vh;
 	text-align: center;
-	padding-top: 130px;
+	padding-top: 13vh;
+	
 }
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -501,12 +503,7 @@ header #logo img {
 section + section {
 	padding-top: 20px;
 }
-.addbyK5{
-	color:#F00;
-	font-size:100px;
-	text-align: center;
-	padding-top: 30px;
-}
+
 
 /*box1（トップページの「私たちのこだわり食材」以下の４つのブロック）
 ---------------------------------------------------------------------------*/
