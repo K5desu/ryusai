@@ -114,6 +114,10 @@ header #logo img {
 	background-position-y: -2%;
 	padding: 120px 5% 0px;	/*上、左右、下へのボックス内の余白*/
 }
+.camera{
+	position: absolute;
+	right: 0;
+}
 #contents-s{display: none;}
 /*トップページのコンテンツへの追加設定*/
 #top #contents {
