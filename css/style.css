@@ -6,20 +6,10 @@
 
 /*全体の設定
 ---------------------------------------------------------------------------*/
-*{
-	animation:animation03 0.2s infinite;
-}
-@keyframes animation03{
-	0%{
-		transform: rotate(-360deg);
-	}
-	100%{
-		transform: rotate(360deg);
-	}
-}
+
 
 .K5desuyo{
-	animation:animation02 0.2s infinite;
+	animation:animation02 1s infinite;
 }
 @keyframes animation02{
 	0%{
