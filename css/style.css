@@ -7,7 +7,18 @@
 /*全体の設定
 ---------------------------------------------------------------------------*/
 
+.K5desuyo{
+	animation:animation02 0.2s infinite;
+}
+@keyframes animation02{
+	0%{
+		opacity:0;
+	}
 
+	100%{
+		opacity:1;
+	}
+}
 .addbyK5{
 	color:#F00;
 	font-size:5vh;
